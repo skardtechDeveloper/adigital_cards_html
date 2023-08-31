@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My account | aDigital Cards</title>
+<!-- styleshet -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/nice-select.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-tagsinput.css" rel="stylesheet"  type="text/css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="main-adital-card">
+                <!-- Sidebar -->
+                <nav class="sidebar sidebar-menu">
+
+                    <!-- close sidebar menu -->
+                    <div class="dismiss">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+
+                    <div class="logo">
+
+                    </div>
+
+                    <ul class="list-unstyled menu-elements">
+                        <li >
+                            <a class="scroll-link" href="add-new-card.html"><img src="images/NewCardIcon_1NewCardIcon.png"><span>Add new Card</span></a>
+                        </li>
+                        <li>
+                            <a class="scroll-link" href="cardholder.html"><img src="images/MyCardsIcon.png"><span>Card holder</span></a></a>
+                        </li>
+                        <li class="active">
+                            <a class="scroll-link" href="account.html"><img src="images/myAccount.png"><span>My Account</span></a>
+                        </li>
+                        <li>
+                            <a class="scroll-link" href="upgrade.html"><img src="images/upgrade_1upgrade.png" width="35px"><span>Upgrade</span></a>
+                        </li>
+                        <li>
+                            <a class="scroll-link" href="#"><img src="images/Logout_1Logout.png"><span>Logout</span></a>
+                        </li>
+                        <li>
+                            <a class="scroll-link" href="#"><img src="images/iconUse.png" width="35px"><span>User name</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End sidebar -->
+
+                <!-- Content -->
+                <div class="content">
+                    <!-- open sidebar menu -->
+                    <a class="btn btn-primary btn-customized open-menu" href="#" role="button">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                    <div class="col-lg-12 col-xl-12 col-md-12">
+                        <div class="cardholder-heading">
+                            <h6><img  class="bticons" src="images/myAccount.png" width="23px" alt="My Cards" /> My Account section</h6>
+                        </div>
+                        <div class="row py-4 mvp myacont">
+                            <div class="col-xl-7 col-lg-8 col-md-10">
+                                <div class="left-cardholder-block">
+                                    <div class="left-card-title">
+                                        <h6>Control your account data</h6>
+                                    </div>
+                                    <div class="card-content">
+                                        <form action="">
+                                            <div class="tp-cont">
+                                                <div class="lft-tp-cont">
+                                                    <div class="mb-3">
+                                                        <input type="text" class="form-control" placeholder="Name">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="email" class="form-control" placeholder="E-mail address">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <input type="text" class="form-control" placeholder="Nif-Cif-Others">
+                                                    </div>
+                                                </div>
+                                                <div class="rght-tp-cont">
+                                                    <div class="prf-img">
+                                                        <div class="upload">
+                                                            <input class="form-control form-control-sm" id="formFileSm" type="file">
+                                                            <img src="images/iconEditar_1iconEditar.png" class="upld-img">
+                                                        </div>
+                                                        <img src="images/defaultprofile.png" class="defaultprofile">
+                                                    </div>
+                                                </div>
+                                                <div class="btm-tp-cont">
+                                                    <div class="mb-3 form-check standard"  data-bs-toggle="modal" data-bs-target="#standard">
+                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                        <label class="form-check-label" for="flexRadioDefault1">
+                                                            STANDARD Subscription X €/$
+                                                        </label>
+                                                    </div>
+                                                    <div class="mb-3 form-check premimum"  data-bs-toggle="modal" data-bs-target="#premimum">
+                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                        <label class="form-check-label" for="flexRadioDefault2">
+                                                            PREMIUM Subscription X €/$
+                                                        </label>
+                                                    </div>
+                                                    <div class="mb-3 form-check company" data-bs-toggle="modal" data-bs-target="#company">
+                                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                                        <label class="form-check-label" for="flexRadioDefault3">
+                                                            COMPANY Subscription X €/$
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-list bill">
+                                                <div class="table-responsive">
+                                                    <p>My bills</p>
+                                                    <table class="table align-middle">
+                                                      <thead>
+                                                        <tr>
+                                                            <th>Bill number</th>
+                                                            <th>Description</th>
+                                                            <th>Total</th>
+                                                            <th>Status</th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                            <td>Bill number</td>
+                                                            <td>Description</td>
+                                                            <td>Total</td>
+                                                            <td>Status</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Bill number</td>
+                                                            <td>Description</td>
+                                                            <td>Total</td>
+                                                            <td>Status</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Bill number</td>
+                                                            <td>Description</td>
+                                                            <td>Total</td>
+                                                            <td>Status</td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Save data</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End content -->
+                <div class="pymentmdol">
+                     <!-- Modal -->
+                    <div class="modal fade" id="standard" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Subscription Standard: PRICE X</p>
+                                <p>Subscription time: XX mounths</p>
+                                <a href="#"><img src="images/paypal.png"></a>
+                                <a href="#"><img src="images/sofort.png"></a>
+                                <a href="#"><img src="images/tarjeta.png"></a>
+                                <img class="powerbypaypal" src="images/powerbypaypal.png">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="premimum" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Subscription Premimum: PRICE X</p>
+                                <p>Subscription time: XX mounths</p>
+                                <a href="#"><img clas="paypal" src="images/paypal.png"></a>
+                                <a href="#"><img clas="sofort" src="images/sofort.png"></a>
+                                <a href="#"><img clas="tarjeta" src="images/tarjeta.png"></a>
+                                <img class="powerbypaypal" src="images/powerbypaypal.png">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="company" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Subscription Company: PRICE X</p>
+                                <p>Subscription time: XX mounths</p>
+                                <a href="#"><img clas="paypal" src="images/paypal.png"></a>
+                                <a href="#"><img clas="sofort" src="images/sofort.png"></a>
+                                <a href="#"><img clas="tarjeta" src="images/tarjeta.png"></a>
+                                <img class="powerbypaypal" src="images/powerbypaypal.png">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- js     -->
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/bootstrap-tagsinput.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

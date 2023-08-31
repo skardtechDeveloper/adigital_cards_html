@@ -1,0 +1,266 @@
+@media screen and (min-width: 360px){
+    .deskfrimg {
+        height: 590px !important;
+    }
+}
+@media screen and (min-width: 413px){
+    .deskfrimg {
+        height: 560px !important;
+    }
+}
+@media screen and (min-width: 1098px){
+    .dsplblck{
+        display:block;
+        padding-bottom: 0px;
+        padding-left: 20px;
+    }
+    .dsplnon, .top-drop h6, .slctCls .dropdown:first-child{display:none;}
+}
+@media screen and (min-width: 1140px){
+    .deskfrimg {
+        height: 535px !important;
+    }
+}
+@media screen and (min-width: 1750px){
+    .btm-tp-cont .form-check:last-child {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 473px){
+    .mvrotIner2 .num-list {
+        justify-content: center !important;
+      }
+      .tp-cont{    flex-direction: column;}
+      .left-cardholder-block .itm-rght, .right-cardholder-block .itm-rght{
+        justify-content: end;
+        width: 100%;
+    }
+    .right-cardholder-block .slctCls .steps-follow{
+        width: 330px;
+        max-width: 330px;
+    }
+    .comp-selet .dropup button img {
+        width: 26px;
+        margin-right: 2px;
+    }
+    .comp-selet .dropup button, .comp-selet .dropup button:hover{padding: 15px 12px;}
+}
+@media screen and (max-width: 486px){
+    .tbimg{
+        height: 700px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .main-card-block.tabblock{
+        margin-right: 2%  !important;
+        margin-left: 2%  !important;
+        width: 96%  !important;
+    }
+    .tablet-content{
+        position: absolute !important;
+        top: 0 !important;
+        width: 100% !important;
+    }
+    .tab-frame{
+        position: relative !important;
+        width: 100% !important;
+    }
+    .main-tablet-block{
+        position: relative;
+        width: 75%;
+        margin: 0 auto;
+        left: 0px !important;
+        top: 30px !important;
+
+    }
+    .div-block-26.tab-head{
+        position: relative !important;
+        width: 75% !important;
+        margin: 0 auto !important;
+        left: 0px !important;
+        top: 37px !important;
+        max-width: 100% !important;
+    }
+}
+@media screen and (max-width: 567px){
+    .btm-tp-cont .form-check:last-child {
+        margin: 0 !important;
+    }
+}
+@media screen and (max-width: 567px){
+    .slctCls .dropdown:first-child{margin-right: 0 !important;margin-bottom: 15px;}
+    .slctCls .dropdown {
+        width: 100%;
+    }
+    .top-drop .btn-secondary{
+        display: block;
+    }
+    #desktop .desktop-device .desktop-frame {
+        padding: 18px 60px 70px 48px !important;
+    }
+    .right-cardholder-block .itm-rght{
+        justify-content: end;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 568px){
+
+    .slctCls .select-sector {
+        width: 100%;
+    }
+    .slctCls .steps-follow{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .cards-bolck{
+        height: 78vh;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 6px;
+        box-shadow: 0pc 0pc 10px #ddd;
+    }
+    .formblock div:last-child{margin-top: 10px !important;}
+    .footer-links a {
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    .formblock {
+        width: 250px;
+    }
+    .qrblock{
+        height: 270px;
+        width: 130px;
+        background-position: top -33px left -15px;
+    }
+
+    .Logincard{
+        background-size: auto 45%;
+    }
+
+    .select-sector{
+        margin-top: 20px;
+    }
+
+    .select-sector h5{
+        text-align: center;
+    }
+
+    .mobile-device{
+        margin-top: 20px;
+    }
+    .mvp {
+        padding-left: 0rem !important;
+    }
+    .upgrade {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .content .myacont{
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+    .lft-tp-cont,.rght-tp-cont{width: 100%;}
+    .lft-tp-cont .mb-3{width: 100%;}
+}
+@media screen and (max-width: 593px){
+    .btm-tp-cont .form-check:nth-child(2){margin-left:0px !important;}
+    /* .premimum {
+        margin-left: 0px;
+    } */
+
+}
+@media   (max-width: 629px) and (min-width:568px){
+    .slctCls .dropdown:first-child {
+        margin-right: 28px;
+      }
+      .top-drop .btn-secondary{padding: 15px 20px 15px 10px;}
+}
+@media screen and (max-width: 767px){
+    .mvrot {
+        display: flex;
+        margin: 15px 0;
+    }
+    .mvrotIner1 {
+        width: 40%;
+    }
+    .mvrotIner2 {
+        width: 60%;
+    }
+    .mvrotIner1 p{
+        font-size: 11px;
+        text-align: center;
+        padding: 4px 12px;
+    }
+    .mvrotIner2 .num-list li a{
+        font-size: 12px;
+        width: 25px;
+        height: 25px;
+    }
+    .mvrotIner2  label{font-size: 13px;}
+    .mvrotIner2 .form-check{margin-left: 15px;}
+    .mvrotIner2 .num-list{justify-content: start;}
+    .deskfot {
+        text-align: center;
+    }
+    #desktop .desktop-device .desktop-frame {
+        padding: 18px 67px 70px 55px;
+    }
+    .subscrition_form{width:100%;}
+}
+@media screen and (max-width: 991px){
+    .desktop-device .desktop-frame {
+        padding: 18px 67px 70px 55px;
+        height: 370px !important;
+    }
+    .right-cardholder-block{margin-top: 30px;}
+    .left-upgrade-block, .center-upgrade-block, .right-upgrade-block{margin-bottom: 30px;}
+    .upgrade {
+        padding-right: 1.5rem;
+    }
+    .plan-benifits{
+        min-height: auto;
+    }
+    .dashboard{background-image:none;}
+}
+@media screen and (max-width: 1024px){
+    .footer-links,.footer-links a {color: #0088d0 !important;}
+}
+@media screen and (max-width: 1097px){
+    .sidebar {left: -255px !important;}
+    .sidebar.active {
+        left: 0 !important;
+    }
+    .dismiss,a.btn-customized {display: block;}
+    .content {
+        padding-left: 0px;
+    }
+    .mvp{
+        padding-left: 1.5rem;
+    }
+    .myacont{
+        padding-right: 1.5rem;
+    }
+    .top-drop {display: block !important;}
+    .tab-pane .col-lg-5{width:100% !important;}
+    .tab-pane .col-lg-7, .select-device .steps-follow{display:none !important;}
+    .tablet-device{
+        position: relative;
+        top: 0px;
+    }
+
+}
+@media  (max-width: 1300px) and (min-width: 992px){
+    .right-cardholder-block .itm-rght{
+        justify-content: end;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1750px){
+    .btm-tp-cont .form-check:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
